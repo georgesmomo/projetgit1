@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DevOps Engineer - Portfolio</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; font-family: Arial, sans-serif; }
+        body { background: #0d1117; color: #fff; text-align: center; }
+        header { padding: 20px; font-size: 28px; font-weight: bold; }
+        .container { width: 90%; max-width: 900px; margin: 40px auto; }
+        .hero {
+            background: linear-gradient(135deg, #0077ff, #00ffaa);
+            padding: 60px 20px;
+            border-radius: 12px;
+            box-shadow: 0 4px 10px rgba(0, 255, 255, 0.3);
+            animation: fadeIn 1s ease-in;
+        }
+        @keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } }
+        .btn { display: inline-block; margin-top: 20px; padding: 12px 24px; 
+            background: #ff4b2b; color: white; text-decoration: none; 
+            border-radius: 8px; transition: 0.3s ease-in-out; }
+        .btn:hover { background: #ff6b4b; }
+        .skills, .experience, .contact { margin-top: 40px; }
+        .skills div, .experience div { background: #1f2937; padding: 10px 20px; margin: 10px; border-radius: 6px; display: inline-block; }
+        .profile-img { width: 150px; height: 150px; border-radius: 50%; margin-top: 20px; }
+        .contact { background: #1a1a2e; padding: 20px; border-radius: 8px; }
+        footer { margin-top: 40px; font-size: 14px; }
+    </style>
+</head>
+<body>
+    <header>🚀 DevOps Engineer - John Doe</header>
+    <div class="container">
+        <img src="profile.jpg" alt="Photo de profil" class="profile-img">
+        <section class="hero">
+            <h1>Optimisation, Sécurité, Automatisation</h1>
+            <p>Je conçois des infrastructures robustes et performantes pour un avenir cloud-native.</p>
+            <a href="#contact" class="btn">Me Contacter</a>
+        </section>
+        <section class="skills">
+            <h2>Compétences</h2>
+            <div>🖥️ CI/CD</div>
+            <div>☁️ Cloud (AWS, Azure, GCP)</div>
+            <div>🐳 Docker & Kubernetes</div>
+            <div>🔐 Sécurité & Monitoring</div>
+            <div>📜 Infrastructure as Code</div>
+        </section>
+        <section class="experience">
+            <h2>Expérience</h2>
+            <div>DevOps Engineer - XYZ Company (2022 - Présent)</div>
+            <div>SysAdmin - ABC Corp (2019 - 2022)</div>
+            <div>Stage DevOps - DEF Solutions (2018 - 2019)</div>
+        </section>
+        <section class="contact" id="contact">
+            <h2>Contact</h2>
+            <p>Email: johndoe@example.com</p>
+            <p>LinkedIn: linkedin.com/in/johndoe</p>
+            <p>GitHub: github.com/johndoe</p>
+        </section>
+    </div>
+    <footer>© 2025 DevOps Engineer - John Doe. Tous droits réservés.</footer>
+</body>
+</html>
